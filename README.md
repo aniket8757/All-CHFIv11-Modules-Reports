@@ -1,6 +1,3 @@
-<img src="CHFI-Banner.jpg" alt="CHFI Banner" style="width:100%;"/>
-
-![CHFI Banner](https://i.imgur.com/Gt0wPXd.png)
 
 <h1 align="center">🔍 Computer Hacking Forensic Investigator (CHFI) - Reports & Labs</h1>
 
