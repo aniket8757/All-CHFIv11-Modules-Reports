@@ -106,7 +106,7 @@ CHFI-v11/
 ## 📞 Contact
 
 📧 aniketpagare1411@gmail.com  
-📁 [My Cybersecurity Portfolio](https://yourportfolio.link)  
+📁 [My Cybersecurity Portfolio](https://aniket8757.github.io/aniket-portfolio/)  
 🔗 [LinkedIn](https://www.linkedin.com/in/aniketpagare)  
 
 ---
