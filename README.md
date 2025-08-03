@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Status-In%20Progress-blue.svg">
   <img src="https://img.shields.io/badge/Modules-Complete%20List-orange">
   <img src="https://img.shields.io/badge/Made%20By-Aniket%20Sunil%20Pagare-success">
-  <img src="https://img.shields.io/badge/CHFI-v10-informational">
+  <img src="https://img.shields.io/badge/CHFI-v11-informational">
 </p>
 
 ---
