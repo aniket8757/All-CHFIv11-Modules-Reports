@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/aniket8757/All-CHFIv11-Modules-Reports/raw/main/A_digital_graphic_design_banner_features_CHFI_repo.png" alt="CHFI v11 Report Banner"/>
+</p>
 
 <h1 align="center">🔍 Computer Hacking Forensic Investigator (CHFI) - Reports & Labs</h1>
 
