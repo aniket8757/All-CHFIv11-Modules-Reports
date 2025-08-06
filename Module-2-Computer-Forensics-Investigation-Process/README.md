@@ -20,7 +20,7 @@ The process ensures that evidence is handled properly, without altering or destr
           v) Chain of Custody – Document every action taken on evidence.
 
 📌 4. Computer Forensics Investigation Process – 7 Main Phases
-
+      
        1. Identification
           i) Recognize an incident or a need for investigation.
          ii) Identify potential sources of evidence:
@@ -49,45 +49,45 @@ The process ensures that evidence is handled properly, without altering or destr
              c) LiME (Linux Memory Extractor)
              d) Wireshark (network data)
 
-4. Examination -->
+       4. Examination -->
 
-   i) Process large volumes of data to find relevant artifacts.
-   ii) Recover deleted files.
-   iii) Extract metadata (file creation/modification times).
-    iv) Convert proprietary formats to standard formats.
-    v)  Example tasks:
-        a) File carving (using Autopsy, Scalpel)
-        b) Registry analysis (using Registry Explorer)
-        c) Log review
+          i) Process large volumes of data to find relevant artifacts.
+         ii) Recover deleted files.
+        iii) Extract metadata (file creation/modification times).
+         iv) Convert proprietary formats to standard formats.
+          v)  Example tasks:
+              a) File carving (using Autopsy, Scalpel)
+              b) Registry analysis (using Registry Explorer)
+              c) Log review
 
-6. Analysis -->
+       5. Analysis -->
    
-   i) Reconstruct events:
-      a) Who did it? (Attribution)
-      b) What happened? (Incident type)
-      c) When did it happen? (Timeline analysis)
-      d) How did it happen? (Attack vector)
+          i) Reconstruct events:
+             a) Who did it? (Attribution)
+             b) What happened? (Incident type)
+             c) When did it happen? (Timeline analysis)
+             d) How did it happen? (Attack vector)
 
-   ii) Tools:
-       a) Volatility (memory analysis)
-       b) Autopsy (disk analysis)
-       c) X-Ways Forensics
-       d) Plaso/log2timeline (timeline creation)
+         ii) Tools:
+             a) Volatility (memory analysis)
+             b) Autopsy (disk analysis)
+             c) X-Ways Forensics
+             d) Plaso/log2timeline (timeline creation)
 
-7. Presentation -->
+       6. Presentation -->
    
-   i) Create a clear, factual report.
-   ii) Include:
-       a) Summary of findings
-       b) Methods used
-       c) Evidence screenshots
-       d) Timelines
-       e) Hash values
+          i) Create a clear, factual report.
+         ii) Include:
+             a) Summary of findings
+             b) Methods used
+             c) Evidence screenshots
+             d) Timelines
+             e) Hash values
 
-  iii) Avoid technical jargon when presenting to non-technical audiences.
-   iv) Be ready to testify in court.
+        iii) Avoid technical jargon when presenting to non-technical audiences.
+         iv) Be ready to testify in court.
 
-8. Decision / Review --> 
-   i) Review case outcome.
-   ii) Identify improvements for future investigations.
-   iii) Close the investigation.
+       7. Decision / Review --> 
+         i) Review case outcome.
+        ii) Identify improvements for future investigations.
+       iii) Close the investigation.
