@@ -22,6 +22,7 @@ The process ensures that evidence is handled properly, without altering or destr
 📌 4. Computer Forensics Investigation Process – 7 Main Phases
       
        1. Identification
+       
           i) Recognize an incident or a need for investigation.
          ii) Identify potential sources of evidence:
             a) Computers
@@ -30,13 +31,17 @@ The process ensures that evidence is handled properly, without altering or destr
             d) Logs
             e) Network devices  
          iii) Example tools: Nmap (scanning), Splunk (log analysis).
+         
        2. Preservation
+       
           i) Protect evidence from alteration or damage.
          ii) Disconnect system from the network (if necessary).
         iii) Create bit-by-bit forensic copies (e.g., with FTK Imager or dd command).
          iv) Generate cryptographic hash (MD5/SHA256) for verification.
           v) Store original media securely.
+          
        3. Collection
+       
           i) Gather evidence from multiple sources:
              a) Hard drives
              b) USB drives
