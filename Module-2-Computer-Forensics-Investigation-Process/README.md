@@ -3,7 +3,7 @@ Definition:
 The Computer Forensics Investigation Process is a systematic procedure used to identify, collect, preserve, analyze, and present digital evidence in a way that is legally admissible in court.
 The process ensures that evidence is handled properly, without altering or destroying it, while maintaining a chain of custody.
 
-📌 2. Objectives -->
+📌 2. Objectives
        i) Identify the source and cause of a security incident or crime.
        ii) Preserve the integrity of evidence.
        iii) Analyze evidence to reconstruct events.
