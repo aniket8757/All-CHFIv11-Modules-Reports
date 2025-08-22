@@ -1,98 +1,81 @@
-📌 1. What is the Computer Forensics Investigation Process?
+# Computer Forensics Investigation Process
 
-Definition:
-The Computer Forensics Investigation Process is a systematic procedure used to identify, collect, preserve, analyze, and present digital evidence in a way that is legally admissible in court.
-The process ensures that evidence is handled properly, without altering or destroying it, while maintaining a chain of custody.
+## 📌 Overview
+The **Computer Forensics Investigation Process** is a systematic and legally sound approach used by forensic investigators to identify, collect, preserve, analyze, and present digital evidence. This process ensures the integrity of evidence while maintaining admissibility in court.
 
-📌 2. Objectives
+---
 
-       i) Identify the source and cause of a security incident or crime.
-       ii) Preserve the integrity of evidence.
-       iii) Analyze evidence to reconstruct events.
-       iv) Present findings in a clear, legal manner.
+## 🛠️ Steps in the Forensics Investigation Process
 
-📌 3. Key Principles -->
+### 1. Identification
+- Recognize the incident or digital crime.
+- Identify potential sources of evidence (computers, mobile devices, networks, cloud storage).
+- Define the scope of the investigation.
 
-       i) Admissibility – Evidence must meet legal standards to be accepted in court.
-       ii) Authenticity – Proof that evidence has not been altered.
-       iii) Reliability – Evidence should come from a credible process.
-         iv) Integrity – Ensure no tampering during the investigation.
-          v) Chain of Custody – Document every action taken on evidence.
+### 2. Preservation
+- Isolate and secure the evidence to prevent tampering.
+- Take forensic images (bit-by-bit copies) of drives and memory.
+- Maintain a **chain of custody** for all evidence.
 
-📌 4. Computer Forensics Investigation Process – 7 Main Phases
-      
-       1. Identification
-       
-          i) Recognize an incident or a need for investigation.
-         ii) Identify potential sources of evidence:
-            a) Computers
-            b) Mobile devices
-            c) Cloud accounts
-            d) Logs
-            e) Network devices  
-         iii) Example tools: Nmap (scanning), Splunk (log analysis).
-         
-       2. Preservation
-       
-          i) Protect evidence from alteration or damage.
-         ii) Disconnect system from the network (if necessary).
-        iii) Create bit-by-bit forensic copies (e.g., with FTK Imager or dd command).
-         iv) Generate cryptographic hash (MD5/SHA256) for verification.
-          v) Store original media securely.
-          
-       3. Collection
-       
-          i) Gather evidence from multiple sources:
-             a) Hard drives
-             b) USB drives
-             c) RAM (volatile data)
-             d) Network traffic
-             e) Cloud backups
-         ii) Tools:
-             a) FTK Imager
-             b) Belkasoft Evidence Center
-             c) LiME (Linux Memory Extractor)
-             d) Wireshark (network data)
+### 3. Collection
+- Gather digital evidence in a forensically sound manner.
+- Use write blockers, forensic tools (FTK Imager, EnCase, Autopsy).
+- Collect both volatile (RAM, network traffic) and non-volatile data (hard drives, USBs).
 
-       4. Examination -->
+### 4. Examination
+- Recover deleted files, logs, emails, and hidden data.
+- Detect malware, backdoors, or suspicious activity.
+- Use forensic analysis tools for in-depth examination.
 
-          i) Process large volumes of data to find relevant artifacts.
-         ii) Recover deleted files.
-        iii) Extract metadata (file creation/modification times).
-         iv) Convert proprietary formats to standard formats.
-          v)  Example tasks:
-              a) File carving (using Autopsy, Scalpel)
-              b) Registry analysis (using Registry Explorer)
-              c) Log review
+### 5. Analysis
+- Correlate evidence with timelines.
+- Identify how the attack happened and who was responsible.
+- Detect motives, methods, and impact.
 
-       5. Analysis -->
-   
-          i) Reconstruct events:
-             a) Who did it? (Attribution)
-             b) What happened? (Incident type)
-             c) When did it happen? (Timeline analysis)
-             d) How did it happen? (Attack vector)
+### 6. Documentation
+- Record every action taken during investigation.
+- Include screenshots, logs, and forensic tool outputs.
+- Maintain clear and professional reporting standards.
 
-         ii) Tools:
-             a) Volatility (memory analysis)
-             b) Autopsy (disk analysis)
-             c) X-Ways Forensics
-             d) Plaso/log2timeline (timeline creation)
+### 7. Presentation
+- Present findings in a simple, understandable format.
+- Provide expert testimony if required.
+- Ensure evidence is legally admissible.
 
-       6. Presentation -->
-   
-          i) Create a clear, factual report.
-         ii) Include:
-             a) Summary of findings
-             b) Methods used
-             c) Evidence screenshots
-             d) Timelines
-             e) Hash values
+---
 
-        iii) Avoid technical jargon when presenting to non-technical audiences.
-         iv) Be ready to testify in court.
+## ⚙️ Tools Commonly Used
+- **FTK Imager**
+- **Autopsy/Sleuth Kit**
+- **EnCase**
+- **X-Ways Forensics**
+- **Volatility (Memory Analysis)**
+- **Wireshark (Network Analysis)**
 
-       7. Decision / Review --> 
-         i) Review case outcome.
-        ii) Identify improvements for future investigations.
-       iii) Close the investigation.
+---
+
+## 📂 Chain of Custody
+Maintaining a **Chain of Custody** is essential:
+- Tracks who handled the evidence, when, and why.
+- Prevents claims of tampering or mishandling.
+- Ensures evidence is admissible in court.
+
+---
+
+## ✅ Key Principles
+- Always work on **copies** of the evidence.
+- Never alter original data.
+- Document every step thoroughly.
+- Follow legal and organizational procedures.
+
+---
+
+## 📖 References
+- NIST SP 800-86: *Guide to Integrating Forensic Techniques into Incident Response*
+- ISO/IEC 27037: *Guidelines for Identification, Collection, and Preservation of Digital Evidence*
+- Various law enforcement and cybersecurity forensic guidelines.
+
+---
+
+## 📌 Conclusion
+The **Computer Forensics Investigation Process** is critical in digital crime solving. By following systematic steps—identification, preservation, collection, examination, analysis, documentation, and presentation—investigators can ensure evidence integrity and support legal proceedings effectively.
